@@ -107,7 +107,7 @@ document.getElementById('contactForm').addEventListener('submit', (e) => {
 
         // 2. Main Laboratory Music Loop
         
-          realAudioLoop = new Audio('p.mp4');
+          realAudioLoop = new Audio('./Eric/p.mp4');
           realAudioLoop.loop = true;
           realAudioLoop.volume = 0.25; // Adjusted for music
         
